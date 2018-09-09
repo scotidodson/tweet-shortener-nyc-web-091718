@@ -48,8 +48,8 @@ end
 
 def shortened_tweet_truncator(tweet)
 #Write another method, shortened_tweet_truncator, that truncates the tweet to 140 characters with an ellipsis (...) if it's still too long after substitution. E.g. "Random Passage satisfies the craving for those details that ..."
-
-  if 
+  new_tweet = ""
+  if tweet.to_s.split(//).length > 140 
     
     
     
