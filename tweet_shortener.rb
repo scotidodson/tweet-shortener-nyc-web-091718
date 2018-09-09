@@ -54,6 +54,7 @@ def shortened_tweet_truncator(tweet)
     i = tweet.to_s.split(//).length - 3
     new_tweet = tweet[0..i].concat("...")
     new_tweet
+    binding.pry
   else
     tweet
   end 
