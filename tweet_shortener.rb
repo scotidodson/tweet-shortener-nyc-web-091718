@@ -52,9 +52,8 @@ def shortened_tweet_truncator(tweet)
   new_tweet = ""
   if tweet.to_s.split(//).length > 140 
     i = tweet.to_s.split(//).length - 3
-    new_tweet = tweet[0]
-    
-    
+    new_tweet = tweet[0..i].concat("...")
+    new_tweet
   else
     tweet
   end 
