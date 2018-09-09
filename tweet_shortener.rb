@@ -58,3 +58,5 @@ def shortened_tweet_truncator(tweet)
     tweet
   end 
 end 
+
+shortened_tweet_truncator("GUISEEEEE this is so fun! I'm tweeting for you guys and this tweet is SOOOO long it's gonna be way more than you would think twitter can handle, so shorten it up you know what I mean? I just can never tell how long to keep typing!")
